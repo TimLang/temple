@@ -37,6 +37,7 @@ module Temple
     autoload :Escapable,          'temple/filters/escapable'
     autoload :Eraser,             'temple/filters/eraser'
     autoload :Validator,          'temple/filters/validator'
+    autoload :CommentRemover,     'temple/filters/comment_remover'
   end
 
   module HTML
